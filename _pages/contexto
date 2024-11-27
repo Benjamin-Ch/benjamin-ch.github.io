@@ -1,0 +1,68 @@
+---
+layout: page
+permalink: /contexto/
+title: Contexto
+nav: true
+nav_order: 3
+---
+
+### **Datos y variables**
+A continuación, se detalla la estructura y relevancia de las fuentes de datos utilizadas:  
+
+**Población Beneficiaria Diciembre 2023 (Fonasa) (`beneficiarios_df`)**  
+
+Descripción: Este conjunto de datos contiene información demográfica detallada sobre los beneficiarios de Fonasa en 2023.  
+
+Variables Clave:  
+SEXO: Género de los beneficiarios.  
+EDAD_TRAMO: Rango etario.  
+TITULAR_CARGA: Relación con el titular del sistema.  
+NACIONALIDAD: Nacionalidad de los beneficiarios.  
+
+Cobertura: Incluye datos de todas las regiones de Chile, con más de 10 millones de registros, permitiendo un análisis nacional y granular.  
+Aplicaciones: Analizar la composición demográfica de los beneficiarios y su distribución geográfica.  
+
+
+
+**Modalidad Libre Elección Diciembre 2023 ( `mle_2023_df`)**  
+
+Descripción: Este conjunto de datos detalla el uso de prestaciones bajo la modalidad de libre elección en el sistema Fonasa.  
+
+Variables Clave:  
+MES_EMISION: Mes de emisión de la prestación.  
+CODIGO_PRESTACION: Código asignado a cada tipo de prestación.  
+DESC_SECCION: Descripción de la sección correspondiente.  
+DESC_ITEM: Detalle del ítem relacionado con la prestación.  
+REGION_EMISION / COMUNA_EMISION: Ubicación geográfica de la emisión.  
+
+Aplicaciones: Estudio del acceso y uso de prestaciones por región y comuna, evaluando patrones y posibles desigualdades.  
+
+
+**Tamaño y Accesibilidad**
+
+Ambos conjuntos están disponibles en formato CSV desde el portal de Fonasa:   
+
+https://www.fonasa.cl/sites/fonasa/datos-abiertos/estadisticas-anuales. 
+
+Estos archivos, con un tamaño conjunto superior a 10 GB, aseguran un nivel de detalle elevado.
+
+
+**Fuente de Datos Complementaria**
+
+Además de las bases mencionadas, se dispone de un conjunto de datos adjunto que detalla los códigos de prestación, clave para interpretar los registros de la segunda fuente. Esto permitirá vincular el codigo de las prestaciones con sus nombres y aranceles.
+
+Disponible en el siguiente link:   
+(de todas maneras, el .xlsx original se encuentra en el resositorio)  
+
+https://www.fonasa.cl/sites/fonasa/prestadores/modalidad-libre-eleccion#normativa-y-arancel-modalidad-libre-eleccin--mle-
+
+
+### **Conceptos importantes a recordar**
+
+- Las "prestaciones" aseguradoras de salud son los servicios, compensaciones o indemnizaciones que una compañía de seguros de salud ofrece a sus asegurados cuando se produce un evento cubierto por la póliza. En este caso FONASA. 
+
+- La Modalidad Libre Elección (MLE): Es una de las dos Modalidades de Atención que otorga el Fondo Nacional de Salud, en la cual el beneficiario elige libremente al profesional y/o entidad de salud, del sector público o privado.  
+
+- Arancel MLE :Cada una de las prestaciones que constituyen el Arancel cuenta con un valor referencial y sobre ese valor se determina tanto la bonificación para cada prestación (monto de dinero que es financiado por Fonasa), como también los pagos que debe realizar el beneficiario (copago).  
+
+- FONASA se divide en 4 tramos, en resumen, tramo A no percibe ingresos por ende no tiene bonificaciones en servicios de salud privada, puede usar servicios publicos sin problema.  Tramos B, C y D se dividen segun ingresos y van cambiando los aranceles, esta informacion esta en `\data\originales\2 Planilla MLE 2023.xlsx`. 
