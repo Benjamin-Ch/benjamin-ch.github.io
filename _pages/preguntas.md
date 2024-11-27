@@ -15,7 +15,7 @@ nav_order: 4
 
 ### La distribución de los datos
 
-![Gráfico de distribución de datos por edad](assets/img/p5_distribucion_datos)
+![Gráfico de distribución de datos por edad]({{ site.baseurl }}/assets/img/p5_distribucion_datos.png){: .img-fluid }
 
 Aquí, encontramos un patrón interesante: una curva que concentra la mayoría de los casos en edades centrales, mientras que los extremos tienen menos frecuencia. Esto significa que ciertos grupos, como los recién nacidos o los adultos mayores, tienen menos datos representativos.
 
@@ -29,7 +29,7 @@ Estas observaciones nos ayudan a entender mejor el panorama, pero todavía neces
 
 ### El gasto promedio por edad
 
-![Gráfico de promedio de copagos por edad](assets/img/p5_promedio_copagos_por_edad)
+![Gráfico de promedio de copagos por edad]({{ site.baseurl }}/assets/img/p5_promedio_copagos_por_edad.png){: .img-fluid }
 
 Como era de esperarse, el promedio del monto de copago aumenta con la edad. Pero aquí encontramos algunos puntos intrigantes:
 
@@ -53,7 +53,7 @@ Al analizar el gasto en copagos, encontramos un desafío inicial: existen montos
 
 #### Boxplot del IQR inferior (< Q3)
 
-![Gráfico de boxplot de cuartil <3 de copagos](assets/img/p5_boxplot_q3)
+![Gráfico de boxplot de cuartil <3 de copagos]({{ site.baseurl }}/assets/img/p5_boxplot_q3.png){: .img-fluid }
 
 Este análisis revela el comportamiento de las prestaciones de menor costo:
 
@@ -62,7 +62,7 @@ Este análisis revela el comportamiento de las prestaciones de menor costo:
 
 #### Boxplot del IQR superior (> Q3)
 
-![Gráfico de boxplot de cuartil >3 de copagos](assets/img/p5_boxplot_q4)
+![Gráfico de boxplot de cuartil >3 de copagos]({{ site.baseurl }}/assets/img/p5_boxplot_q4.png){: .img-fluid }
 
 Este análisis revela el comportamiento de las prestaciones de mayor costo:
 
@@ -75,7 +75,7 @@ Para entender mejor la frecuencia de las prestaciones y cómo varían según la 
 
 #### Histogramas de Prestaciones de bajo costo
 
-![Gráfico de histograma de copagos segun tramo edad y sexo - Q<3](assets/img/p5_histograma_copagos_sexo)
+![Gráfico de histograma de copagos segun tramo edad y sexo - Q<3]({{ site.baseurl }}/assets/img/p5_histograma_copagos_sexo.png){: .img-fluid }
 
 Al analizar estos gráficos, se confirman las tendencias previas, pero se puede agregar que:
 
@@ -83,7 +83,7 @@ Al analizar estos gráficos, se confirman las tendencias previas, pero se puede 
 
 #### Histogramas Prestaciones de alto costo
 
-![Gráfico de histograma de copagos segun tramo edad y sexo - Q>3](assets/img/p5_histograma_copagos_sexo_q4)
+![Gráfico de histograma de copagos segun tramo edad y sexo - Q>3]({{ site.baseurl }}/assets/img/p5_histograma_copagos_sexo_q4.png){: .img-fluid }
 
 Con una escala logarítmica, es evidente que las prestaciones de muy alto costo aumentan en frecuencia conforme las personas envejecen, pero a partir de los 80 años, la tendencia se estabiliza. Además, en estos rangos de copagos elevados, las diferencias entre hombres y mujeres tienden a desaparecer.
 
