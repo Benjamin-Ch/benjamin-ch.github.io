@@ -1,26 +1,25 @@
 ---
-layout: about
+layout: page
 title: Introducción
 permalink: /
-
-profile:
-  align: right
-  image: fonasa_logo.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Source: MegaNoticias.cl</p>
-
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
 ---
 
-### Contexto y motivación
-Elegimos hacer el proyecto sobre Fonasa porque consideramos que los recursos podrían ser mejor administrados en las instituciones de salud pública, enfocándonos en las áreas que más lo requieren. En un contexto donde la demanda por atención médica ha aumentado, especialmente en ciertas especialidades y servicios, es fundamental redistribuir los recursos para garantizar un acceso adecuado y oportuno a la atención.  
+<div class="container py-5">
+  <h3 class="mb-5">IMT2200 - MLE FONASA</h3>
+  <h3 class="mb-5">🩺 Mejorando el Sistema de Salud Pública en Chile: Una Mirada a Fonasa</h3>
 
-Nuestra motivación surge de la evidencia que indica que hay áreas específicas de la atención primaria, exámenes de diagnóstico y consultas especializadas, que enfrentan una alta demanda y, a menudo, carecen de los recursos necesarios para atender a la población de manera efectiva. Investigaciones recientes muestran que muchas personas enfrentan largas esperas o dificultades para acceder a estos servicios esenciales, lo que puede tener un impacto negativo en su salud.  
+  <hr class="mb-5">
 
-Al analizar el sistema de Fonasa, buscamos identificar oportunidades para redirigir recursos hacia estas áreas críticas, asegurando que se satisfagan las necesidades más urgentes de la población. Fonasa se presenta como una muestra representativa de lo que necesitan las personas, reflejando las realidades y desafíos que enfrentan en su búsqueda de atención médica. Este enfoque no solo mejoraría la atención médica, sino que también optimizaría el uso de los recursos disponibles.  
+  <p style="float: right; max-width: 300px; margin-left: 20px; margin-bottom: 10px;">
+    <img src="{{ site.baseurl }}/assets/img/fonasa_logo.jpg" alt="Source: MegaNoticias.cl" style="width: 100%;">
+    <span style="font-size: 0.9em; color: #666; display: block; text-align: center;">Source: MegaNoticias.cl</span>
+  </p>
 
-La audiencia objetivo de nuestro análisis incluye a tomadores de decisiones en el ámbito de la salud pública, como entidades del Ministerio de Salud y administradores de los centros públicos. Nuestro trabajo servirá como una herramienta valiosa para informar políticas que prioricen el financiamiento en las áreas más solicitadas, promoviendo un sistema de salud más equitativo y eficaz.
+  <p class="lead mb-4">En Chile, el acceso a la salud pública es un tema crucial que afecta a millones de personas. Fonasa, como sistema que atiende a una gran parte de la población, enfrenta desafíos importantes. Por eso, decidimos enfocar nuestro análisis en identificar cómo se pueden distribuir mejor los recursos disponibles para beneficiar a quienes más lo necesitan.</p>
 
+  <p class="mb-4">Hoy en día, la demanda por atención médica está creciendo, especialmente en áreas como consultas especializadas, exámenes de diagnóstico y atención primaria. Sin embargo, muchas personas encuentran largas esperas o incluso dificultades para acceder a estos servicios esenciales. Esto puede tener consecuencias graves para su salud y calidad de vida.</p>
+
+  <p class="mb-4">Nuestra investigación busca encontrar soluciones prácticas. Al analizar datos reales de Fonasa, queremos entender dónde están las mayores necesidades y cómo redirigir recursos para atenderlas. Esto no solo mejoraría la calidad de la atención médica, sino que también ayudaría a usar los recursos de manera más eficiente, beneficiando a toda la comunidad.</p>
+
+  <p class="mb-4">Este proyecto está diseñado para ser una herramienta que inspire mejoras en el sistema de salud pública. Con los hallazgos, buscamos apoyar a quienes toman decisiones, como las autoridades del Ministerio de Salud, para que prioricen las áreas más críticas y logren un sistema de salud más justo y accesible para todos.</p>
+</div>
